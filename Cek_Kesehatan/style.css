@@ -1,0 +1,101 @@
+body {
+	background-color: #f8f9fa;
+}
+
+h2 {
+	color: #007bff;
+}
+
+form {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+body {
+	background-color: #f8f9fa;
+}
+
+h2 {
+	color: #007bff;
+}
+
+form {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+	background-color: #f8f9fa;
+	padding: 20px;
+	border-radius: 8px;
+	border: 2px solid #007bff;
+	color: #007bff;
+	font-size: 1.2rem;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+/* Default navbar style */
+.navbar {
+	transition: all 0.5s ease-in-out;
+	background-color: transparent;
+	padding: 20px;
+}
+
+/* Navbar style when scrolled */
+.navbar-scrolled {
+	background-color: #007bff; /* Change to desired color */
+	padding: 10px; /* Reduce padding on scroll */
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Scroll to top button */
+#scrollToTop {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 50%;
+	font-size: 24px;
+	cursor: pointer;
+	display: none; /* Hidden by default */
+	z-index: 1000;
+	transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect */
+#scrollToTop:hover {
+	background-color: #0056b3;
+}
+/* Default navbar style */
+.navbar {
+	transition: all 0.3s ease-in-out;
+	background-color: transparent;
+	padding: 20px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 576px) {
+	.navbar {
+		padding: 10px;
+	}
+}
